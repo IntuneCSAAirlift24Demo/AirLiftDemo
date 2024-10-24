@@ -54,7 +54,7 @@ Connect-MgGraph -TenantId $tenantid -ClientSecretCredential $ClientSecretCredent
 # Report Parameters - Device Inventory
 $Reportparams = @{
     reportName = "DevicesWithInventory"
-    filter = "(ManagementAgents eq '2') or (ManagementAgents eq '512') or (ManagementAgents eq '514') or (ManagementAgents eq '64')" 
+    filter = "(ManagementAgents eq '2') or (ManagementAgents eq '10') or (ManagementAgents eq '512') or (ManagementAgents eq '514') or (ManagementAgents eq '64') or (ManagementAgents eq '522')" 
     localizationType = "LocalizedValuesAsAdditionalColumn"
     format = "csv"
     select = @() # Select columns to be added or retrieve all columns
