@@ -1,7 +1,7 @@
 # Data Collection Rule (DCR) and Data Collection Endpoint (DCE) details
-$DcrImmutableId = "dcr-a658c2efcc4249beaab715b8df62d51b" # DCR ID
-$DceURI = "https://intunedatacdrendpoint-dmwp.eastus-1.ingest.monitor.azure.com" # DCE endpoint where data will be sent
-$Table = "IntuneDevices3_CL" # custom log that must be created already
+$DcrImmutableId = "dcr-a658c2efcc4249beaab715b8df62d51b" # id available in DCR > JSON view > immutableId
+$DceURI = "https://intunedatacdrendpoint-dmwp.eastus-1.ingest.monitor.azure.com" # available in DCE > Logs Ingestion value
+$Table = "AppCrashEvents_CL" # custom log to create
 
 # Microsoft Entra ID Authentication details
 $tenantId = "" #Azure AD Tenant ID
